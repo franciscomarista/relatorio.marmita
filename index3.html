@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registro de Refeições</title>
+  <link rel="stylesheet" href="style3.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Registro de Refeições</h1>
+    <form id="mealForm">
+      <label>Dia: <input type="text" name="dia" required></label>
+      <label>Café: <input type="number" name="cafe" min="0" value="0"></label>
+      <label>Almoço P: <input type="number" name="almocoP" min="0" value="0"></label>
+      <label>Almoço M: <input type="number" name="almocoM" min="0" value="0"></label>
+      <label>Almoço G: <input type="number" name="almocoG" min="0" value="0"></label>
+      <label>Jantar P: <input type="number" name="jantarP" min="0" value="0"></label>
+      <label>Jantar M: <input type="number" name="jantarM" min="0" value="0"></label>
+      <label>Jantar G: <input type="number" name="jantarG" min="0" value="0"></label>
+      <label>Refeição: <input type="number" name="refeicao" min="0" value="0"></label>
+      <label>Refrigerante: <input type="number" name="refrigerante" min="0" value="0"></label>
+      <label>Entrega: <input type="number" name="entrega" min="0" value="0"></label>
+      <label>Total: <input type="number" name="total" min="0" value="0"></label>
+      <button type="submit">Enviar</button>
+    </form>
+    <p id="status"></p>
+  </div>
+  <script src="script3.js"></script>
+</body>
+</html>
